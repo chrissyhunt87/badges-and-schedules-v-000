@@ -19,6 +19,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
+  binding.pry
   puts attendees.map do |attendee|
     badge_maker(attendee)
   end
